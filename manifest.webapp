@@ -1,0 +1,27 @@
+  {
+  "name": "Test Alarm API",
+  "description": "Test Alarm API",
+  "launch_path": "/index.html",
+  "type": "certified",
+  "default_locale": "en-US",
+  "locales": {
+    "en-US": {
+      "name": "Alarm",
+      "description": "Alarm test"
+    }
+  },
+  "icons": {
+    "56": "/style/icons/Default.png"
+  },
+  "chrome": {
+    "statusbar": "overlap"
+  },
+  "orientation": "default",
+  "activities": {},
+  "messages": [
+    { "alarm": "/index.html" }
+  ],
+  "permissions": {
+    "alarms":{}
+  }
+}
